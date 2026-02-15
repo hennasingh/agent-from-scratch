@@ -2,27 +2,41 @@
   "messages": [
     {
       "role": "user",
-      "content": "what is my name?",
-      "id": "bd80859c-cd9f-4b41-9c50-0b5761c2657a",
-      "createdAt": "2024-11-05T17:40:01.921Z"
+      "content": "My name is Henna, whats yours",
+      "id": "881944b9-b239-413f-80cf-ebdc8bf55f84",
+      "createdAt": "2026-02-15T09:55:42.854Z"
     },
     {
       "role": "assistant",
-      "content": "I'm sorry, but I don't have access to personal information about users unless it has been shared with me in the course of our conversation. If you'd like, you can tell me your name!",
-      "id": "f30a762d-a5f4-4754-9120-667de2f44c37",
-      "createdAt": "2024-11-05T17:40:02.824Z"
+      "content": "I'm an AI and don't have a personal name, but you can call me Assistant! How can I help you today, Henna?",
+      "refusal": null,
+      "annotations": [],
+      "id": "8419ab2f-068c-4af4-ae29-8271f300b971",
+      "createdAt": "2026-02-15T09:55:44.161Z"
     },
     {
       "role": "user",
-      "content": "My name is Scott",
-      "id": "a884ba5b-8ec3-482a-bd6c-18babe76ec05",
-      "createdAt": "2024-11-05T17:40:28.739Z"
+      "content": "whats the weather",
+      "id": "7f0f4d62-6cdf-4df5-89a3-a54e8a347746",
+      "createdAt": "2026-02-15T09:56:28.865Z"
     },
     {
       "role": "assistant",
-      "content": "Nice to meet you, Scott! How can I assist you today?",
-      "id": "70a9b0ae-a6ec-4523-a4dd-81ce5c27e080",
-      "createdAt": "2024-11-05T17:40:29.361Z"
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_9fOBiks05IClIbOS6LGuyQGj",
+          "type": "function",
+          "function": {
+            "name": "getWeather",
+            "arguments": "{}"
+          }
+        }
+      ],
+      "refusal": null,
+      "annotations": [],
+      "id": "84244b2c-4f0b-4382-b0a2-a946dfea8e51",
+      "createdAt": "2026-02-15T09:56:30.399Z"
     }
   ]
 }
