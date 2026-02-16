@@ -2,89 +2,70 @@
   "messages": [
     {
       "role": "user",
-      "content": "how is the weather?",
-      "id": "701f4dae-c9e4-4b38-a364-27923011820a",
-      "createdAt": "2024-11-05T20:14:23.306Z"
+      "content": "Hi, My name is Henna",
+      "id": "3334be56-62f5-44ca-accb-acaae3b371fb",
+      "createdAt": "2026-02-16T14:25:37.551Z"
     },
     {
       "role": "assistant",
-      "content": "Could you please specify the location for which you would like to know the weather?",
+      "content": "Hi Henna! How can I assist you today?",
       "refusal": null,
-      "id": "69bb4b06-eda2-44a4-bf31-2c82f15e282e",
-      "createdAt": "2024-11-05T20:14:24.508Z"
+      "annotations": [],
+      "id": "198972cc-fae6-433a-aa73-a14b296a9810",
+      "createdAt": "2026-02-16T14:25:39.003Z"
     },
     {
       "role": "user",
-      "content": "MN",
-      "id": "21a75a5e-335e-4344-946e-a9096adcb020",
-      "createdAt": "2024-11-05T20:15:21.482Z"
+      "content": "What is the weather today?",
+      "id": "7802053c-9c75-4013-9b35-d75517ccf6c9",
+      "createdAt": "2026-02-16T14:25:54.689Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Could you please provide me with your location so I can check the weather for you?",
+      "refusal": null,
+      "annotations": [],
+      "id": "d611b820-f080-4c66-a424-f4a8014a9eab",
+      "createdAt": "2026-02-16T14:25:57.629Z"
+    },
+    {
+      "role": "user",
+      "content": "What is the weather today in Ireland?",
+      "id": "26758e70-9c08-433c-8c32-c2a4fd1f685f",
+      "createdAt": "2026-02-16T14:26:09.009Z"
     },
     {
       "role": "assistant",
       "content": null,
       "tool_calls": [
         {
-          "id": "call_mdnBRU7F6Up7dyX1iboyCE87",
+          "id": "call_3SiRU6TPlyZihtVJezbOy4H4",
           "type": "function",
           "function": {
             "name": "get_weather",
-            "arguments": "{\"reasoning\":\"User requested the current weather for Minnesota.\"}"
+            "arguments": "{\"reasoning\":\"To provide the current weather information for Ireland.\"}"
           }
         }
       ],
       "refusal": null,
-      "id": "5526aa4e-f64d-4c96-adf4-7b975448a1bd",
-      "createdAt": "2024-11-05T20:15:22.319Z"
+      "annotations": [],
+      "id": "339e5abe-5ac1-4aa4-81a3-e8136b4d1f2f",
+      "createdAt": "2026-02-16T14:26:10.292Z"
     },
     {
       "role": "tool",
       "content": "hot, 90deg",
-      "tool_call_id": "call_mdnBRU7F6Up7dyX1iboyCE87",
-      "id": "a5c81e09-6d9f-4146-bba0-b2802e34b376",
-      "createdAt": "2024-11-05T20:15:22.321Z"
-    },
-    {
-      "role": "user",
-      "content": "what was the weather again?",
-      "id": "8f197479-ca7a-4706-a17d-7077cec92bbb",
-      "createdAt": "2024-11-05T20:20:12.279Z"
+      "tool_call_id": "call_3SiRU6TPlyZihtVJezbOy4H4",
+      "id": "8de3e508-a64b-4f87-9d56-31a95fe48e01",
+      "createdAt": "2026-02-16T14:26:10.294Z"
     },
     {
       "role": "assistant",
-      "content": "The current weather in Minnesota is hot, with a temperature of 90 degrees.",
+      "content": "The weather in Ireland today is quite hot, with a temperature of 90 degrees. If you need more specific information or details about a particular area in Ireland, just let me know!",
       "refusal": null,
-      "id": "fad8c276-ab2a-4f63-80a8-ea6e6e0c791c",
-      "createdAt": "2024-11-05T20:20:13.168Z"
-    },
-    {
-      "role": "user",
-      "content": "tell me what the weater is right now though",
-      "id": "e865f51a-1d23-40f8-9790-837159c75890",
-      "createdAt": "2024-11-05T20:20:36.192Z"
-    },
-    {
-      "role": "assistant",
-      "content": null,
-      "tool_calls": [
-        {
-          "id": "call_jbSaq6EgBFbWm3Xg5bUW0pN5",
-          "type": "function",
-          "function": {
-            "name": "get_weather",
-            "arguments": "{\"reasoning\":\"User is asking for the current weather conditions in Minnesota.\"}"
-          }
-        }
-      ],
-      "refusal": null,
-      "id": "9ef38aeb-7be2-4e87-aa81-f9fa046cb346",
-      "createdAt": "2024-11-05T20:20:37.040Z"
-    },
-    {
-      "role": "tool",
-      "content": "hot, 90deg",
-      "tool_call_id": "call_jbSaq6EgBFbWm3Xg5bUW0pN5",
-      "id": "dc465b38-ddb2-4e60-bbd8-f1cca4727aa9",
-      "createdAt": "2024-11-05T20:20:37.041Z"
+      "annotations": [],
+      "id": "22fee1bb-4042-4962-9454-37dd5bb55be7",
+      "createdAt": "2026-02-16T14:26:12.736Z"
     }
   ]
 }
