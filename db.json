@@ -2,26 +2,48 @@
   "messages": [
     {
       "role": "user",
-      "content": "how is the weather?",
-      "id": "9b6e5ffd-56da-4042-a503-d292cd79d093",
-      "createdAt": "2024-11-05T19:34:16.767Z"
+      "content": "How is the weather",
+      "id": "367ee248-bc8f-432f-b137-052263cf9db7",
+      "createdAt": "2026-02-16T13:25:58.572Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Could you please specify the location for which you would like to know the weather?",
+      "refusal": null,
+      "annotations": [],
+      "id": "13e2497b-246b-460f-84ee-007c81746d69",
+      "createdAt": "2026-02-16T13:26:01.673Z"
+    },
+    {
+      "role": "user",
+      "content": "UK",
+      "id": "732e1e91-6b7c-403b-b050-4d194e600317",
+      "createdAt": "2026-02-16T13:27:36.026Z"
     },
     {
       "role": "assistant",
       "content": null,
       "tool_calls": [
         {
-          "id": "call_Pd2L6OWnviQmRf7RicWtvE6Y",
+          "id": "call_TA4jN7z0V5QTBz0fHPw3BClc",
           "type": "function",
           "function": {
-            "name": "get_stuff",
-            "arguments": "{\"reasoning\":\"To provide accurate weather information.\"}"
+            "name": "get_weather",
+            "arguments": "{\"reasoning\":\"To provide the current weather information for the UK.\"}"
           }
         }
       ],
       "refusal": null,
-      "id": "7c3e8fdd-f7f8-4103-9ac4-a361671aca41",
-      "createdAt": "2024-11-05T19:34:17.996Z"
+      "annotations": [],
+      "id": "b62bde25-6db0-411f-a41c-532c74b0f178",
+      "createdAt": "2026-02-16T13:27:37.896Z"
+    },
+    {
+      "role": "tool",
+      "content": "very cold. 17deg",
+      "tool_call_id": "call_TA4jN7z0V5QTBz0fHPw3BClc",
+      "id": "ce784006-71fe-44c6-8bc8-a26f6826eac9",
+      "createdAt": "2026-02-16T13:27:37.898Z"
     }
   ]
 }
